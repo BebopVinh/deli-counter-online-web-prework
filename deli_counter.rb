@@ -47,5 +47,5 @@ def my_method
 end 
 
 howards_line = []
-binding.pry 
+# binding.pry 
 puts "goodbye!"
