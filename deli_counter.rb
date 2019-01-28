@@ -36,8 +36,8 @@ end
 def my_method 
   "potatoes"
   "cabbage" 
-  return "carrots"
-  puts "hello"
+  
+  "hello"
 end 
 
 howards_line = []
