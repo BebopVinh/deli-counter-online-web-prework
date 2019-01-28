@@ -17,10 +17,13 @@ def line(customers)
   if customers.size == 0
     puts "The line is currently empty."
   else
-    for i in (0...customers.size)
-      current_line << "#{i+1}. #{customers[i]}"
-    end
-    puts "The line is currently: #{current_line * " "}"
+   #  for i in (0...customers.size)
+    #  current_line << "#{i+1}. #{customers[i]}"
+  #  end
+   # puts "The line is currently: #{current_line * " "}"
+   
+   # same functionality but use #each_with_index
+   customers.each_with_index
   end
 end
 
