@@ -33,5 +33,6 @@ def now_serving(customers)
   end
 end
 
+howards_line = []
 binding.pry 
 puts "goodbye!"
