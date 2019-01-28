@@ -34,5 +34,4 @@ def now_serving(customers)
 end
 
 binding.pry 
-
 puts "goodbye!"
