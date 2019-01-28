@@ -33,6 +33,13 @@ def now_serving(customers)
   end
 end
 
+def my_method 
+  "potatoes"
+  "cabbage" 
+  return "carrots"
+  puts "hel"
+end 
+
 howards_line = []
 binding.pry 
 puts "goodbye!"
