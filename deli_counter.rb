@@ -23,7 +23,10 @@ def line(customers)
    # puts "The line is currently: #{current_line * " "}"
    
    # same functionality but use #each_with_index
-   customers.each_with_index
+   customers.each_with_index do |element, index|
+     current_line << "#{index+1}. #{element}"
+   end
+   puts "The line is currently: #{current_line * " "}"
   end
 end
 
