@@ -37,7 +37,7 @@ def my_method
   "potatoes"
   "cabbage" 
   return "carrots"
-  puts "hel"
+  puts "hello"
 end 
 
 howards_line = []
