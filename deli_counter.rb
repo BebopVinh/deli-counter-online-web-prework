@@ -33,3 +33,7 @@ def now_serving(customers)
     puts "Currently serving #{customers.shift}."
   end
 end
+
+binding.pry 
+
+puts "goodbye~"
