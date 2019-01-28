@@ -20,7 +20,6 @@ def line(customers)
     for i in (0...customers.size)
       current_line << "#{i+1}. #{customers[i]}"
     end
-    binding.pry
     puts "The line is currently: #{current_line * " "}"
   end
 end
@@ -36,4 +35,4 @@ end
 
 binding.pry 
 
-puts "goodbye~"
+puts "goodbye!"
