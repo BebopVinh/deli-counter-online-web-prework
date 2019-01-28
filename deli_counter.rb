@@ -3,7 +3,7 @@ require 'pry'
 def take_a_number(customers, new_person)
   if customers.size == 0
     puts "Welcome, #{new_person}. You are number 1 in line."
-    return customers.push(new_person)
+    customers.push(new_person)
 
   else
       customers.push(new_person)
@@ -20,6 +20,7 @@ def line(customers)
     for i in (0...customers.size)
       current_line << "#{i+1}. #{customers[i]}"
     end
+    binding.pry
     puts "The line is currently: #{current_line * " "}"
   end
 end
